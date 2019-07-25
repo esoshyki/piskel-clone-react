@@ -1,0 +1,34 @@
+.framefield {
+    position: absolute;
+    display: grid;
+    grid-template-columns: 50px 600px 50px;
+    top: 84px;
+    left: 400px;
+    width: 700px;
+    height: 120px;
+    background: white;
+    border: 2px double yellowgreen;
+}
+
+.leftslide, .rightslide {
+    border: 1px solid yellowgreen;
+}
+
+.leftslide:hover, .rightslide:hover {
+    background-position-y: 1%;
+    transition: cubic-bezier(0.95, 0.05, 0.795, 0.035);
+}
+
+.rightslide {
+    background: url('../assets/icons/right.svg') no-repeat;
+    background-position-y: 30px;
+}
+
+.leftslide {
+    background: url('../assets/icons/left.png') no-repeat;
+    background-position-y: 30px;
+}
+
+.framecontainer {
+    background: rgb(216, 211, 211);
+}

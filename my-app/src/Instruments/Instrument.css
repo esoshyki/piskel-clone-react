@@ -1,0 +1,17 @@
+.instruments_panel {
+    width: 200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2px;
+    margin: 2px;
+}
+
+.instrument_button {
+    height: 50px;
+    border: 1px solid yellow;
+    background: black;
+}
+
+.instrument_button:hover {
+    border: 2px solid red;
+}

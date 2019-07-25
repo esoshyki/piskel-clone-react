@@ -1,0 +1,14 @@
+.main {
+    max-width: 1000px;
+    min-width: 800px;
+    height: 100%;
+    margin: auto;
+    background: #CCC
+}
+
+.header {
+    height: 30px;
+    width: 100%;
+    background: yellowgreen;
+}
+

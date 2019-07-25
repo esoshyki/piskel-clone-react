@@ -1,0 +1,16 @@
+#falex-canvas {
+    position: absolute;
+    left: 400px;
+    top: 250px;
+    background: url('../assets/background.png') repeat;
+}
+
+.falex-canvas-container {
+
+}
+
+.shadow {
+    position: absolute;
+    background: red;
+    opacity: 0.5;    
+}
